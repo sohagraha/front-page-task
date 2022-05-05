@@ -1,111 +1,107 @@
-.container {
-  padding: 0 2rem;
-}
-
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #eee;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.head {
+  background-color: #F3E4B9;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.link {
+  color: red;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.login {
+  background-color: transparent;
+  border: none;
+  color: #060505;
+  font-weight: 700;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.login:hover {
+  background-color: transparent;
+  border: none;
+  color: #fc8f00;
+  font-weight: 700;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.register {
+  background-color: transparent;
+  color: #ff9100;
+  border-color: #fc8f00;
+  font-weight: 600;
+  border-radius: 30px;
 }
 
-.title,
-.description {
-  text-align: center;
+.register:hover {
+  background-color: #fc8f00;
+  color: white;
+  border-color: #fc8f00;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.mainLeft {
+  padding-top: 35px;
+  padding-bottom: 50px;
 }
 
-.code {
-  background: #fafafa;
+.mainLeft h1 {
+  z-index: 10;
+  font-size: 70px;
+  max-width: 80%;
+  color: #0E0E0E;
+}
+
+.mainLeft p {
+  max-width: 65%;
+  color: #0E0E0E;
+}
+
+.mainLeft Button {
+  color: white;
+  border-radius: 8px;
+  background-color: goldenrod;
+  margin-right: 20px;
+  padding: 0px 30px;
+  border: none;
+}
+
+.dollar {
+  font-size: 25px;
+}
+
+.mainpic {
+  z-index: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 16px;
+  height: 73%;
+  width: 33%;
+  background-image: radial-gradient(circle at center center,
+      rgb(138, 241, 115),
+      transparent 70%);
+}
+
+.designation {
+  background-color: white;
+  position: absolute;
+  bottom: -35px;
+  right: 9%;
+  padding: 15px 38px;
   border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
+.tophead {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.cardBody {
+  border-radius: 18px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.cardDetails {
+  padding: 10px 15px;
 }
 
 @media (max-width: 600px) {
