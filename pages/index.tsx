@@ -89,6 +89,40 @@ const Home: NextPage = () => {
                 </div>
               </Card>
             </Col>
+            <Col>
+              <Card className={styles.cardBody}>
+                <div className='d-flex justify-content-center align-items-center'>
+                  <div className='col-md-4 p-3'>
+                    f
+                  </div>
+                  <div className='col-md-8'>
+                    <div className={styles.cardDetails}>
+                      <Card.Title>C++</Card.Title>
+                      <Card.Text>
+                        General Purpose Programing Language
+                      </Card.Text>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </Col>
+            <Col>
+              <Card className={styles.cardBody}>
+                <div className='d-flex justify-content-center align-items-center'>
+                  <div className='col-md-4 p-3'>
+                    f
+                  </div>
+                  <div className='col-md-8'>
+                    <div className={styles.cardDetails}>
+                      <Card.Title>C++</Card.Title>
+                      <Card.Text>
+                        General Purpose Programing Language
+                      </Card.Text>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </Col>
           </Row>
         </Container>
 
